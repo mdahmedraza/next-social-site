@@ -1,0 +1,73 @@
+.co_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.co_header{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.co_text{
+    font-family: 'Gumela';
+    color: #242D49;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.co_border{
+    width:50%;
+    border-bottom: 2px solid red;
+    margin-left: 2rem;
+}
+.co_about{
+    display: flex;
+    margin: 2rem 0;
+}
+.co_left{
+    width: 10rem;
+}
+.co_img{
+    width: 3rem;
+    height: auto;
+}
+.co_abouts{
+    font-family: 'Gumela';
+    color: #242D49;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.co_about span{
+    font-weight: bold;
+}
+.co_para{
+    font-family: 'Gumela';
+    color: #242D49;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    padding: 0.5rem;
+    background-color: coral;
+    border: 1px solid coral;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.f_wrapper{
+    margin-top: 2rem;
+}
+.inputs{
+    width: 100%;
+    color: gray;
+    border: 1px solid gray;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+.checkbox{
+    margin-bottom: 1.5rem;
+}
+.checkbox span{
+    margin-left: 2rem;
+}

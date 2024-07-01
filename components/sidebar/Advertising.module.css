@@ -1,0 +1,26 @@
+.ad_wrapper{
+    margin-top: 2rem;
+}
+.ad_border{
+    margin: 3rem auto;
+    width: 70%;
+    height: 25rem;
+    border: 3px solid darkviolet;
+}
+.ad_box{
+    width:98%;
+    height: 98%;
+    background-color:darkviolet;
+    margin-top: 1%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ad_box div{
+    font-family: 'Gumela';
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+}

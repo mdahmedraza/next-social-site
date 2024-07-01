@@ -1,0 +1,65 @@
+.social_wrapper{
+    margin-top: 2rem;
+}
+.img{
+    width: 2rem;
+    height: auto;
+}
+.social_components{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.twitter_components{
+    height: 4rem;
+    width: 4rem;
+    background-color:darksalmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.twitter_components:hover{
+    border: 1px solid darksalmon;
+    background-color: white;
+}
+.facebook_components{
+    height: 4rem;
+    width: 4rem;
+    background-color:lawngreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.facebook_components:hover{
+    border: 1px solid lawngreen;
+    background-color: white;
+}
+.insta_components{
+    height: 4rem;
+    width: 4rem;
+    background-color:gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.insta_components:hover{
+    border: 1px solid gold;
+    background-color: white;
+}
+.wifi_components{
+    height: 4rem;
+    width: 4rem;
+    background-color:deeppink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.wifi_components:hover{
+    border: 1px solid deeppink;
+    background-color: white;
+}

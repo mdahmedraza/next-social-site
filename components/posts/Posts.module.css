@@ -1,0 +1,46 @@
+
+.re_wrapper{
+    margin-top: 2rem;
+}
+.re_img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.re_parent{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.re_parent div{
+    display: flex;
+    flex: 1;
+    margin-left: 0.3rem;
+}
+.re_parent>:nth-child(1){
+    margin-bottom: 1rem;
+}
+.re_about{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.re_about div{
+    margin-top: 1rem;
+    font-family: 'Gumela';
+    color: #242D49;
+    font-weight: bold;
+}
+.re_about label{
+    margin-top: 0.5rem;
+    font-family: 'Gumela';
+    color: #242D49;
+}
+@media(max-width:768px){
+    .re_parent{
+        flex-direction: row;
+    }
+    .re_parent>:nth-child(1){
+        margin-bottom: 0;
+    }
+}

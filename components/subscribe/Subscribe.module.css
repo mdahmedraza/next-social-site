@@ -1,0 +1,48 @@
+.sub_wrapper{
+    width: 95%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.sub_title{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Gumela';
+    color: #242D49;
+    margin-top: 2rem;
+}
+.sub_title span{
+    color:#FCA61F
+}
+.sub_para{
+    font-size: 1.5rem;
+    font-family: 'Gumela';
+    color: #242D49;
+    margin-top: 1rem;
+}
+.sub_form{
+    display: flex;
+    margin: 2rem 0;
+}
+.sub_form input{
+    width: 15rem;
+    height: 2.3rem;
+    border: 1px solid gray;
+}
+.sub_form button{
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: midnightblue;
+}
+.margin_bottom{
+    margin-bottom: 3rem;
+}

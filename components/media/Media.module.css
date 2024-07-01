@@ -1,0 +1,10 @@
+.media_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.image{
+    height: auto;
+    width: 2rem;
+    
+}

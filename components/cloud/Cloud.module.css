@@ -1,0 +1,19 @@
+.tag_wrapper{
+    margin-top: 2rem;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.tags div{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    font-family: 'Gumela';
+    color: #242D49;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+.tags div span{
+    color: orangered;
+}

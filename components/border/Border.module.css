@@ -1,0 +1,18 @@
+.border_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.border_text{
+    font-family: 'Gumela';
+    color: #242D49;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.border_border{
+    width:50%;
+    border-bottom: 2px solid red;
+    margin-left: 1rem;
+}

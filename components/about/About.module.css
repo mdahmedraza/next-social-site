@@ -1,0 +1,41 @@
+.author_img{
+    width:5rem;
+    height: auto;
+}
+.au_logo{
+    width: 2rem;
+    height: auto;
+}
+.au_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.au_detail{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.au_about div{
+    font-family: 'Gumela';
+    color: #242D49;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.au_about span{
+    font-family: Gumela;
+    color: #242D49
+}
+.au_para{
+    font-family: 'Gumela';
+    color: #242D49;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.au_logo{
+    margin: 0 1rem;
+}

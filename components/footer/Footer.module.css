@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.f_wrapper{
+    display: flex;
+    gap: 2rem;
+}
+.f_content{
+    flex: 1;
+}
+.f_contents{
+    flex: 1;
+    margin-top: 2rem;
+}
+.f_header{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Gumela';
+    color: #242D49;
+}
+.f_header span{
+    color:#FCA61F
+}
+.f_para{
+    font-size: 1.2rem;
+    font-family: 'Gumela';
+    color: #242D49;
+    margin-bottom: 3rem;
+}
+.f_para span{
+    font-weight: bold;
+}

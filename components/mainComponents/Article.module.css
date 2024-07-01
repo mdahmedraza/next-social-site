@@ -1,0 +1,41 @@
+.a_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+.a_first_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.a_image{
+    height: 2rem;
+    width: auto;   
+}
+.a_second_wrapper{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 70%;
+}
+.copy{
+    width: 2rem;
+    color: gray;
+}
+.copy:hover{
+    color: blue;
+}
+.input{
+    font-family: 'Gumela';
+    color: #242D49;
+    font-weight: bold;
+    font-size: 1rem;
+    overflow: hidden;
+    width: 90%;
+}

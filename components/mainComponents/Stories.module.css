@@ -1,0 +1,46 @@
+.st_wrapper{
+    margin-top: 2rem;
+}
+.st_header{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.st_text{
+    font-family: 'Gumela';
+    color: #242D49;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.st_border{
+    width:50%;
+    border-bottom: 2px solid red;
+    margin-left: 2rem;
+}
+.st_parent{
+    margin-top: 2rem;
+    display: flex;
+}
+.st_child{
+    display: flex;
+    flex: 1;
+}
+.st_about{
+    margin-left: 1rem;
+}
+.st_about div{
+    margin-top: 1rem;
+    font-family: 'Gumela';
+    color: #242D49;
+    font-weight: bold;
+}
+.st_about label{
+    margin-top: 1rem;
+    font-family: 'Gumela';
+    color: #242D49;
+}
+.st_img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
